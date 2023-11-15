@@ -67,7 +67,7 @@ def send_win_toast(title,message,action:bool):
         notifier.show(toast)
 
 @logger.catch
-def run(base_dir,day=7):
+def run(base_dir,day=0):
     global FILE_LIST
     FILE_LIST = get_del_file_list(base_dir,day)
     if not FILE_LIST:
@@ -78,4 +78,4 @@ def run(base_dir,day=7):
     
     
 if __name__ == "__main__":
-    run('O:\\Download\\_____template_clear_____')
+    run('O:\\Download\\_____template_clear_____',7)

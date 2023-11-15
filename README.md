@@ -2,6 +2,8 @@
 
 查找部分用的 https://blog.csdn.net/JinbaoSite/article/details/79307812 的代码并进行更改
 
+![Alt text](image/image.png)
+
 **会使用windows通知进行提醒，点击确认才会清理**
 
 可以自行加入计划任务进行定时
